@@ -1,0 +1,355 @@
+body{
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+}
+p{
+    color: rgba(157, 157, 157, 0.91)
+}
+.navbar-light .navbar-brand,.nav-link,.navbar-light .navbar-nav .nav-link{
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar-light p.navbar-brand{
+    text-decoration: underline;
+    font-size: 28px;
+    position: relative;
+}
+.navbar-light .brand-title{
+    top: 42px;
+    position: absolute;
+}
+.first{
+    background-color: #2A4F5B;
+    color: #fff;
+    padding: 0 0 2%;
+}
+
+.first .first-holder h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.first .first-holder .col:first-of-type {
+    padding-top: 10%;
+}
+.first button{
+    padding: 9px 35px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 0;
+    margin-bottom: 19%;
+}
+.first .first-holder img {
+    width: 400px;
+    height: 500px;
+}
+.first i{
+    color:#848484;
+    cursor: pointer;
+}
+.first i:hover{
+    color:#fff;
+    transition: all .5s ease-in-out;
+
+}
+
+
+.features{
+    padding: 5% 0;
+}
+
+.features .features-holder .features-header h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.features .features-holder .features-header{
+    padding: 0 14%;
+    margin-bottom: 8%;
+ }
+.features .features-holder .media span{
+    border: 2px solid #333;
+    border-radius: 50%;
+}
+.features .features-holder .media span i{
+    padding: 30px 15px 31px 30px;
+}
+
+.cards .cards-holder .card{
+    background-color: #153e4be8;
+    color: #fff;
+    border-radius: 0;
+    padding: 14% 12%;
+    border:none;
+}
+.cards .cards-holder .cards .col:nth-of-type(2){
+    background-color:#061215e8
+}
+.cards .cards-holder .card i{
+    font-size: 39px;
+}
+.cards .cards-holder  .row .col{
+    padding: 0;
+    margin: 0;
+    width: 33.33%;
+    
+}
+.cards .cards-holder  .row .col button{
+    background-color: #2A4F5B;
+    border: none;
+}
+.cards .cards-holder  .row .col:nth-of-type(2) button{
+    background-color:#153B48
+}
+.cards .cards-holder  .row .col button:hover{
+    border: 1px solid #fff;
+    transition: all .5s ease-in-out;
+    padding-bottom: 4px;
+}
+
+.works{
+    padding: 4% 0;
+}
+.works .works-holder .works-head{
+    padding: 0 6%;
+    margin-bottom: 35px;
+}
+.works .works-holder h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.works .works-holder .works-links ul li{
+    float: left;
+    padding-right: 20px;
+    font-weight:bold;
+    font-size: 18px;
+}
+
+.works .works-holder .works-links{
+    padding: 0 32%;
+    margin-left: 56px;
+    margin-bottom: 11%;
+}
+
+.works .works-holder .works-cards .works-img{
+    background-color: #2A4F5B;
+    color: #fff;
+    text-align: center;
+    padding: 34%;
+    font-size: 30px;
+    
+
+}
+
+.works .works-holder .works-cards .works-img-title{
+    margin-top: 15px;
+}
+.works .works-holder .works-cards .row .col h4{
+    font-weight: bold;
+
+}
+
+.works .works-holder .works-cards .row .col p{
+    color: #7c6c6c99;
+}
+
+.middle{
+    background-color: #2A4F5B;
+    color: #fff;
+    padding:1%;
+}
+.middle .middle-left{
+    width: 70%;
+    float: left;
+}
+
+.middle .middle-right{
+    margin: 34px 0px;
+    width: 21%;
+    float: right;
+}
+.middle .middle-right button{
+    margin-bottom: 10px;
+    padding: 5px 19px;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.middle .middle-right button:first-of-type{
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #fff;
+    margin-right: 10px;
+
+}
+
+.blog{
+    padding:6% 0;
+}
+.blog .blog-holder h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.blog .blog-holder .blog-header{
+    padding: 0 15%;
+    margin-bottom: 5%;;
+}
+.blog .blog-holder .media .blog-img{
+    background-color: #2A4F5B;
+    color: #fff;
+    padding: 9% 13%;
+    font-size: 36px;
+}
+.blog .blog-holder .blog-media .media span{
+    color: #000;
+    text-transform: lowercase;
+}
+
+.second-middle{
+    background-color: #2A4F5B;
+    color: #fff;
+    padding:2%;
+}
+.second-middle .second-middle-left{
+    width: 54%;
+    float: left;
+}
+
+.second-middle .second-middle-right{
+    width: 45%;
+    float: right;
+}
+
+.second-middle .second-middle-right input[type="email"]{
+    display: inline;
+    float: left;
+    width: 55%;
+    margin-right: 2px;
+    border-radius: 0;
+    border: none;
+}
+
+.second-middle .second-middle-right button{
+    padding: 7.7px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0;
+    background-color: #47c063;
+}
+.stats{
+    padding:3% 0
+}
+
+.stats .stats-holder .stats-title{
+    padding: 0 16%;
+    margin-bottom: 25px;
+}
+.stats .stats-holder .stats-title h2{
+    font-weight: bold;
+}
+
+.stats .stats-holder .mysvg svg path {
+        will-change: auto;
+        stroke-width: 20px;
+        stroke-miterlimit: round;
+        transition: stroke-dashoffset 850ms ease-in-out;
+}
+
+.stats .stats-holder .stats-circles svg{
+    position: relative;
+}
+
+.stats .stats-holder .stats-circles .svg-p{
+    position: absolute;
+    left: 37%;
+    top: 45%;
+    font-size: 30px;
+}
+.last{
+    background-color: #2A4F5B;
+    color: #fff;
+    padding:2% 0
+}
+.last .last-holder .row .col p:hover{
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+.last .last-holder .row .col:first-of-type h2{
+    text-decoration: underline;
+    position: relative;
+    
+}
+.last .last-holder .row .col h2{
+    margin-bottom: 30px;
+}
+.last .last-holder .row .col span{
+    position: absolute;
+    top: 32px;
+    left: 30%;
+    right: 29%;
+}
+.last .last-holder .row .col:first-of-type button{
+    background-color: transparent;
+    border: 1px solid #333;
+    color: #fff;
+    padding: 6px 38px;
+    font-weight: bold;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+.last .last-holder .row .col:nth-of-type(2) button{
+    color: #fff;
+    border: 1px solid #333;
+    padding: 6px 38px;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+.last .last-holder .row .col:last-of-type ul{
+    margin-left: 100px;
+}
+
+.last .last-holder .row .col:last-of-type ul li{
+    float: left;
+    margin-right: 5px;
+}
+
+.last .last-holder .row .col:last-of-type ul li i.fa-facebook-f{
+    border: 2px solid #fff;
+    padding: 13px 19px;
+    border-radius: 50%;
+    font-size: 21px;
+}
+
+.last .last-holder .row .col:last-of-type ul li i.fa-twitter{
+    border: 2px solid #fff;
+    padding: 13px;
+    border-radius: 50%;
+    font-size: 21px;
+}
+
+.last .last-holder .row .col:last-of-type ul li i.fa-instagram{
+    border: 2px solid #fff;
+    padding: 14px 16px;
+    border-radius: 50%;
+    font-size: 21px;
+}
+
+
+footer{
+    background-color: #1b3943;
+    color: #fff;
+    padding: 5px 0 0;
+}
+footer .navbar-light .navbar-brand,footer .nav-link,footer .navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer .footer-holder h6{
+    color: rgba(157, 157, 157, 0.91);
+    margin-bottom: 0;
+}
